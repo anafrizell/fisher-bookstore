@@ -20,10 +20,12 @@ export default class App extends Component {
           <Navbar.Collapse className="justify-content-end">
             <Nav>
               <NavItem>
-                <Nav.Link href="/books">Books</Nav.Link>
-                <Nav.Link href="/authors">Authors</Nav.Link>
+                  <Nav.Link href="/books">Books</Nav.Link>
               </NavItem>
             </Nav>
+            <NavItem>
+                  <Nav.Link href="/authors">Authors</Nav.Link>
+              </NavItem>
           </Navbar.Collapse>
         </Navbar>
         <Routes />
