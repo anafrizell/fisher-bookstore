@@ -13,7 +13,11 @@ export default class Authors extends Component{
                },
                {
                    id: 2,
-                   name: "Ana Frizell"
+                   name: "Eric Evans"
+               },
+               {
+                   id: 3,
+                   name: "Nicole Forsgren"
                }
            ]
        };
